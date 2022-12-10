@@ -29,39 +29,39 @@ rpi_serial_number: serial_number
 hat_powermon_serial_number: serial_number
 summary_test_results: pass / fail
 test_results:
-   - rpi:
-      - hat_eeprom: pass / fail
-      - driver_caribou: pass / fail
-   - fpga:
-      - programming: pass / fail
-      - reset: pass / fail
-      - communication: pass / fail
-      - versions: pass / fail
-      - pmod: pass / fail
-      - switch: pass / fail
-      - leds: pass / fail
-      - smi: pass / fail
-   - modem:
-      - reset: pass / fail
-      - version: pass / fail
-      - leds: pass / fail
-      - configuration: pass / fail
-      - communication: pass / fail
-      - interrupt: pass / fail
-   - mixer:
-      - reset: pass / fail / na
-      - communication: pass / fail / na
-      - version: pass / fail / na
-   - power_measurements: pass / fail
-   - power:
-      - fpga_only: [value]
-      - modem_rx_no_mixer: [value]
-      - modem_tx_no_mixer: [value]
-      - mixer_no_modem: [value]   
-   - rf:
-      - loopback: pass / fail
-      - tx_power: pass / fail
-      - rssi: pass / fail
+   rpi:
+      hat_eeprom: pass / fail
+      driver_caribou: pass / fail
+   fpga:
+      programming: pass / fail
+      reset: pass / fail
+      communication: pass / fail
+      versions: pass / fail
+      pmod: pass / fail
+      switch: pass / fail
+      leds: pass / fail
+      smi: pass / fail
+   modem:
+      reset: pass / fail
+      version: pass / fail
+      leds: pass / fail
+      configuration: pass / fail
+      communication: pass / fail
+      interrupt: pass / fail
+   mixer:
+      reset: pass / fail / na
+      communication: pass / fail / na
+      version: pass / fail / na
+   power_measurements: pass / fail
+   power:
+      fpga_only: [value]
+      modem_rx_no_mixer: [value]
+      modem_tx_no_mixer: [value]
+      mixer_no_modem: [value]   
+   rf:
+      loopback: pass / fail
+      tx_power: pass / fail
+      rssi: pass / fail
 ```
 
 ## Testers
