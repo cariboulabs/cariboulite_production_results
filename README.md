@@ -52,8 +52,8 @@ test_results:
       reset: pass / fail / na
       communication: pass / fail / na
       version: pass / fail / na
-   power_measurements: pass / fail
    power:
+      result: pass / fail
       fpga_only: [value]
       modem_rx_no_mixer: [value]
       modem_tx_no_mixer: [value]
