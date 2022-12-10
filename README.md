@@ -76,3 +76,8 @@ hat_powermon_serial_number: serial_number
 ```
 
 ## Events
+Production events contain:
+ - Production day initiation
+ - Failing board
+
+The file here is a simple output log file for each tester RPI.
