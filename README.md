@@ -6,6 +6,7 @@ The repo contains the following sub-directories
  - boards - A YAML file for each tested board
  - testers - A YAML file for each tester system
  - events - Production events
+ - scripts - python automated scripts for visualization and monitoring
 
 ## Boards sub-directory
 This sub-directory contains production files as follows:
