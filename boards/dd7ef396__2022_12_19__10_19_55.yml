@@ -1,0 +1,27 @@
+version: 1
+file_type: cariboulite_test_results
+date: 19/12/2022 10:19:55
+product_name: CaribouFull
+rpi_serial_number: 10000000a1d19604
+summary_test_results: PASS
+test_results:
+	current_system: "Pass"
+	fpga_programming: "Pass"
+	fpga_communication: "Pass"
+	fpga_id_resistors: "Pass - detected CaribouFull"
+	fpga_soft_reset: "Pass"
+	fpga_switch: "Pass"
+	fpga_leds: "Pass"
+	fpga_smi: "Pass - 09Empty: 0, 09Full: 0, 24Empty: 0, 24Full:0"
+	hat_eeprom: "Pass"
+	mixer_communication: "Pass"
+	mixer_version_id: "Pass"
+	modem_communication: "Pass"
+	modem_version: "Pass, PN: AT86RF215IQ, VER: 3"
+	modem_leds: "Pass"
+	modem_interrupt: "Pass"
+	current_modem_rx: "Pass, 65.0 mA"
+	current_modem_tx: "Pass, 60.0 mA"
+	system_smi_data: "Pass"
+	system_rf_loopback: "Pass"
+	system_rf_tx_power: "Pass"
