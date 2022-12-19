@@ -1,0 +1,27 @@
+version: 1
+file_type: cariboulite_test_results
+date: 19/12/2022 10:11:28
+product_name: CaribouISM
+rpi_serial_number: 10000000a1d19604
+summary_test_results: FAIL
+test_results:
+	current_system: "Pass"
+	fpga_programming: "Pass"
+	fpga_communication: "Pass"
+	fpga_id_resistors: "Pass - detected CaribouISM"
+	fpga_soft_reset: "Pass"
+	fpga_switch: "Fail - didn't detect switch press - aborted by operator. Check switch assembly (S1)"
+	fpga_leds: ""
+	fpga_smi: ""
+	hat_eeprom: ""
+	mixer_communication: ""
+	mixer_version_id: ""
+	modem_communication: ""
+	modem_version: ""
+	modem_leds: ""
+	modem_interrupt: ""
+	current_modem_rx: ""
+	current_modem_tx: ""
+	system_smi_data: ""
+	system_rf_loopback: ""
+	system_rf_tx_power: ""
